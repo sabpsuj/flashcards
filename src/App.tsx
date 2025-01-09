@@ -1,33 +1,37 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import flashcardsService  from './services/flashcards.service'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [cards, setCards] = useState(flashcardsService.getRandomFlashcards('js', 6))
+  const [cardFlipped, setCardFlipped] = useState(false)
+
+  const handleButtonClick = () => {
+    if (!cardFlipped) {
+      setCardFlipped(true)
+    } else {
+      const newCards = [
+        ...cards.slice(1),
+        ...flashcardsService.getRandomFlashcards('js', 1),
+      ]
+      setCards(newCards)
+      setCardFlipped(false)
+    }
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {cards.map((card, index) => (
+        <div key={index}>
+          {cardFlipped && index === 0 ? (<p>{card.answer}</p> ) : (<h2>{card.question}</h2>)}
+          
+          {index === 0 && (
+            <button onClick={() => handleButtonClick()}>
+              {cardFlipped ? 'Next' : 'Flip'}
+            </button>
+          )}
+        </div>
+      ))}
     </>
   )
 }
