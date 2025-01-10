@@ -1,0 +1,47 @@
+.flash-card {
+  $root: &;
+  width: 100%;
+  max-width: 240px;
+  aspect-ratio: 0.64;
+  position: relative;
+  
+  &--topic {
+    &_js {
+      #{$root}__side {
+        background-color: #f7df1e;
+      }
+    }
+  }
+
+  &--flipped {
+    #{$root}__side {
+      &--back {
+        transform: rotateY(0deg);
+        z-index: 2;
+      }
+      &--front {
+        transform: rotateY(180deg);
+        z-index: 1;
+      }
+    }
+  }
+
+  &__side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid #111;
+    top: 0;
+    transition: transform 0.3s;
+
+    &--back {
+      transform: rotateY(180deg);
+      z-index: 1;
+    }
+
+    &--front {
+      z-index: 2;
+    }
+  }
+}

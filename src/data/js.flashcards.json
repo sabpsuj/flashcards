@@ -1,7 +1,7 @@
 [
   {
-    "question": "What is the capital of France?",
-    "answer": "Paris"
+    "question": "How will you define recursive function?",
+    "answer": "Recursive function is a function that calls itself."
   },
   {
     "question": "What is the capital of Spain?",

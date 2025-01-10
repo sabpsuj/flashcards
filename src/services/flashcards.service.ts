@@ -2,11 +2,18 @@ import type { Flashcard } from '../types/Flashcard.type'
 import type { Topic } from '../types/Topic.type'
 import jsFlashcards from '../data/js.flashcards.json'
 
-// co tu będzie? 
-// będzie przechowywał 10 ostatnich cardów
+type FlashcardWithoutId = {
+  question: string
+  answer: string
+}
 
 const flashcards: Record<Topic, Flashcard[]> = {
-  js: jsFlashcards,
+  js: jsFlashcards.map((flashcard: FlashcardWithoutId, index: number) => {
+    return {
+      ...flashcard,
+      id: index
+    }
+  }),
 }
 
 const lastTenCards: Record<Topic, number[]> = {
@@ -23,7 +30,7 @@ const storeLastTenCards = (topic: Topic, indexes: number[]) => {
 
     if (indexes.length > availableSpace) {
       lastTenCards[topic] = [
-        ...lastTenCards[topic].slice(indexes.length - availableSpace, indexes.length),
+        ...lastTenCards[topic].slice(indexes.length - availableSpace, 10),
         ...indexes,
       ]
     } else {
