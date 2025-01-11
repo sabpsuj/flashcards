@@ -1,14 +1,16 @@
 .flash-card {
   $root: &;
   width: 100%;
-  max-width: 240px;
-  aspect-ratio: 0.64;
+  max-width: var(--card-width);
+  aspect-ratio: var(--card-aspect-ratio);
   position: relative;
+  transition: transform 0.3s;
   
   &--topic {
     &_js {
       #{$root}__side {
-        background-color: #f7df1e;
+        background-color: #f2ebb8;
+        border: 8px solid #f7df1e;
       }
     }
   }
@@ -31,9 +33,10 @@
     width: 100%;
     height: 100%;
     border-radius: 8px;
-    border: 1px solid #111;
     top: 0;
     transition: transform 0.3s;
+    padding: 24px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 
     &--back {
       transform: rotateY(180deg);

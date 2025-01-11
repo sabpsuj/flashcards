@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  &__cards {
+    position: relative;
+    max-width: var(--card-width);
+    aspect-ratio: var(--card-aspect-ratio);
+    margin: 0 auto;
+
+    .flash-card {
+      position: absolute;
+
+      @for $i from 1 through 6 {
+        &:nth-child(#{$i}) {
+          z-index: 6 - $i;
+        }
+      }
+    }
+
+    &--removing {
+      .flash-card:nth-child(1) {
+        transition: transform 0.4s, opacity 0.4s;
+        transform: translateX(-100%) translateY(50%) rotate(-15deg);
+        opacity: 0;
+      }
+    }
+  }
+}
