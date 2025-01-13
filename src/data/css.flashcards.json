@@ -1,0 +1,150 @@
+[
+      {
+        "question": "What does CSS stand for?",
+        "answer": "Cascading Style Sheets"
+      },
+      {
+        "question": "How do you change the background color in CSS?",
+        "answer": "Using the 'background-color' property"
+      },
+      {
+        "question": "What is the default display value for a <div> element?",
+        "answer": "block"
+      },
+      {
+        "question": "How do you center an element horizontally using CSS?",
+        "answer": "Using 'margin: 0 auto;'"
+      },
+      {
+        "question": "What property is used to change the text color in CSS?",
+        "answer": "color"
+      },
+      {
+        "question": "How do you make text bold in CSS?",
+        "answer": "Using the 'font-weight' property"
+      },
+      {
+        "question": "What is a CSS class selector?",
+        "answer": "A selector that selects elements with a specific class attribute"
+      },
+      {
+        "question": "How do you add a comment in CSS?",
+        "answer": "Using /* comment */"
+      },
+      {
+        "question": "What property is used to change the font size in CSS?",
+        "answer": "font-size"
+      },
+      {
+        "question": "How do you select an element with id 'header' in CSS?",
+        "answer": "Using '#header'"
+      },
+      {
+        "question": "What is the purpose of the 'z-index' property?",
+        "answer": "To specify the stack order of elements"
+      },
+      {
+        "question": "How do you make a list without bullets in CSS?",
+        "answer": "Using 'list-style-type: none;'"
+      },
+      {
+        "question": "What property is used to change the width of an element?",
+        "answer": "width"
+      },
+      {
+        "question": "How do you apply a style to multiple elements in CSS?",
+        "answer": "Using a comma-separated list of selectors"
+      },
+      {
+        "question": "What is the 'box-model' in CSS?",
+        "answer": "A model that describes the layout of elements"
+      },
+      {
+        "question": "How do you make an element invisible in CSS?",
+        "answer": "Using 'display: none;' or 'visibility: hidden;'"
+      },
+      {
+        "question": "What property is used to change the height of an element?",
+        "answer": "height"
+      },
+      {
+        "question": "How do you create a flex container in CSS?",
+        "answer": "Using 'display: flex;'"
+      },
+      {
+        "question": "What is the 'hover' pseudo-class in CSS?",
+        "answer": "A pseudo-class that applies a style when the user hovers over an element"
+      },
+      {
+        "question": "How do you change the font family in CSS?",
+        "answer": "Using the 'font-family' property"
+      },
+      {
+        "question": "What property is used to add space inside an element?",
+        "answer": "padding"
+      },
+      {
+        "question": "How do you create a grid container in CSS?",
+        "answer": "Using 'display: grid;'"
+      },
+      {
+        "question": "What is the 'nth-child' pseudo-class in CSS?",
+        "answer": "A pseudo-class that matches elements based on their position in a group"
+      },
+      {
+        "question": "How do you change the border color in CSS?",
+        "answer": "Using the 'border-color' property"
+      },
+      {
+        "question": "What property is used to add space outside an element?",
+        "answer": "margin"
+      },
+      {
+        "question": "How do you make text italic in CSS?",
+        "answer": "Using the 'font-style' property"
+      },
+      {
+        "question": "What is the 'first-child' pseudo-class in CSS?",
+        "answer": "A pseudo-class that matches the first child element"
+      },
+      {
+        "question": "How do you change the line height in CSS?",
+        "answer": "Using the 'line-height' property"
+      },
+      {
+        "question": "What property is used to change the border width in CSS?",
+        "answer": "border-width"
+      },
+      {
+        "question": "How do you create a responsive design in CSS?",
+        "answer": "Using media queries"
+      },
+      {
+        "question": "What is the 'last-child' pseudo-class in CSS?",
+        "answer": "A pseudo-class that matches the last child element"
+      },
+      {
+        "question": "How do you change the cursor style in CSS?",
+        "answer": "Using the 'cursor' property"
+      },
+      {
+        "question": "What property is used to change the border style in CSS?",
+        "answer": "border-style"
+      },
+      {
+        "question": "How do you align items in a flex container?",
+        "answer": "Using 'align-items' property"
+      },
+      {
+        "question": "What is the 'only-child' pseudo-class in CSS?",
+        "answer": "A pseudo-class that matches an element that is the only child of its parent"
+      },
+      {
+        "question": "How do you change the text alignment in CSS?",
+        "answer": "Using the 'text-align' property"
+      },
+      {
+        "question": "What property is used to change the border radius in CSS?",
+        "answer": "border-radius"
+      }
+]

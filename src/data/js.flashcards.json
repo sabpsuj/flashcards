@@ -1,122 +1,154 @@
 [
   {
-    "question": "How will you define recursive function?",
-    "answer": "Recursive function is a function that calls itself."
+    "question": "What is JavaScript?",
+    "answer": "A programming language used for web development."
   },
   {
-    "question": "What is the capital of Spain?",
-    "answer": "Madrid"
+    "question": "What is a variable?",
+    "answer": "A container for storing data values."
   },
   {
-    "question": "What is the capital of Italy?",
-    "answer": "Rome"
+    "question": "What is a function?",
+    "answer": "A block of code designed to perform a particular task."
   },
   {
-    "question": "What is the capital of Germany?",
-    "answer": "Berlin"
+    "question": "What is an array?",
+    "answer": "A data structure that can hold more than one value at a time."
   },
   {
-    "question": "What is the capital of the United Kingdom?",
-    "answer": "London"
+    "question": "What is an object?",
+    "answer": "A collection of properties, where each property is a key-value pair."
   },
   {
-    "question": "What is the capital of the United States?",
-    "answer": "Washington, D.C."
+    "question": "What is a loop?",
+    "answer": "A way to repeat a block of code multiple times."
   },
   {
-    "question": "What is the capital of Canada?",
-    "answer": "Ottawa"
+    "question": "What is an event?",
+    "answer": "An action or occurrence that happens in the browser."
   },
   {
-    "question": "What is the capital of Mexico?",
-    "answer": "Mexico City"
+    "question": "What is a callback?",
+    "answer": "A function passed into another function as an argument."
   },
   {
-    "question": "What is the capital of Brazil?",
-    "answer": "Brasília"
+    "question": "What is a promise?",
+    "answer": "An object representing the eventual completion or failure of an asynchronous operation."
   },
   {
-    "question": "What is the capital of Argentina?",
-    "answer": "Buenos Aires"
+    "question": "What is 'this' keyword?",
+    "answer": "Refers to the object it belongs to."
   },
   {
-    "question": "What is the capital of Australia?",
-    "answer": "Canberra"
+    "question": "What is 'null'?",
+    "answer": "A special value that represents 'no value'."
   },
   {
-    "question": "What is the capital of Japan?",
-    "answer": "Tokyo"
+    "question": "What is 'undefined'?",
+    "answer": "A variable that has been declared but not assigned a value."
   },
   {
-    "question": "What is the capital of China?",
-    "answer": "Beijing"
+    "question": "What is 'NaN'?",
+    "answer": "Stands for 'Not-a-Number'."
   },
   {
-    "question": "What is the capital of India?",
-    "answer": "New Delhi"
+    "question": "What is 'strict mode'?",
+    "answer": "A way to opt in to a restricted variant of JavaScript."
   },
   {
-    "question": "What is the capital of Russia?",
-    "answer": "Moscow"
+    "question": "What is 'let'?",
+    "answer": "A keyword to declare a block-scoped variable."
   },
   {
-    "question": "What is the capital of South Africa?",
-    "answer": "Pretoria"
+    "question": "What is 'const'?",
+    "answer": "A keyword to declare a block-scoped, read-only variable."
   },
   {
-    "question": "What is the capital of Egypt?",
-    "answer": "Cairo"
+    "question": "What is 'var'?",
+    "answer": "A keyword to declare a function-scoped variable."
   },
   {
-    "question": "What is the capital of Nigeria?",
-    "answer": "Abuja"
+    "question": "What is 'hoisting'?",
+    "answer": "JavaScript's default behavior of moving declarations to the top."
   },
   {
-    "question": "What is the capital of Kenya?",
-    "answer": "Nairobi"
+    "question": "What is 'closure'?",
+    "answer": "A function having access to the parent scope, even after the parent function has closed."
   },
   {
-    "question": "What is the capital of Saudi Arabia?",
-    "answer": "Riyadh"
+    "question": "What is 'IIFE'?",
+    "answer": "Immediately Invoked Function Expression."
   },
   {
-    "question": "What is the capital of Iran?",
-    "answer": "Tehran"
+    "question": "What is 'JSON'?",
+    "answer": "JavaScript Object Notation, a format for storing and transporting data."
   },
   {
-    "question": "What is the capital of Turkey?",
-    "answer": "Ankara"
+    "question": "What is 'AJAX'?",
+    "answer": "Asynchronous JavaScript and XML."
   },
   {
-    "question": "What is the capital of Pakistan?",
-    "answer": "Islamabad"
+    "question": "What is 'DOM'?",
+    "answer": "Document Object Model, a programming interface for HTML and XML documents."
   },
   {
-    "question": "What is the capital of Indonesia?",
-    "answer": "Jakarta"
+    "question": "What is 'BOM'?",
+    "answer": "Browser Object Model, allows JavaScript to interact with the browser."
   },
   {
-    "question": "What is the capital of South Korea?",
-    "answer": "Seoul"
+    "question": "What is 'event bubbling'?",
+    "answer": "An event propagation method where the event starts from the target element and bubbles up to the root."
   },
   {
-    "question": "What is the capital of Thailand?",
-    "answer": "Bangkok"
+    "question": "What is 'event capturing'?",
+    "answer": "An event propagation method where the event starts from the root and captures down to the target element."
   },
   {
-    "question": "What is the capital of Vietnam?",
-    "answer": "Hanoi"
+    "question": "What is 'ES6'?",
+    "answer": "ECMAScript 6, a major update to JavaScript."
   },
   {
-    "question": "What is the capital of the Philippines?",
-    "answer": "Manila"
+    "question": "What is 'template literal'?",
+    "answer": "A way to include variables and expressions inside a string."
   },
   {
-    "question": "What is the capital of South Korea?",
-    "answer": "Seoul"
+    "question": "What is 'arrow function'?",
+    "answer": "A shorter syntax for writing functions."
   },
   {
-    "question": "What is the capital of Malaysia?",
-    "answer": "Kuala Lumpur"
+    "question": "What is 'spread operator'?",
+    "answer": "Allows an iterable to expand in places where 0+ arguments are expected."
+  },
+  {
+    "question": "What is 'destructuring'?",
+    "answer": "A way to unpack values from arrays or properties from objects."
+  },
+  {
+    "question": "What is 'default parameter'?",
+    "answer": "Allows function parameters to have default values."
+  },
+  {
+    "question": "What is 'rest parameter'?",
+    "answer": "Allows a function to accept an indefinite number of arguments as an array."
+  },
+  {
+    "question": "What is 'async/await'?",
+    "answer": "A way to handle asynchronous operations more easily."
+  },
+  {
+    "question": "What is 'fetch API'?",
+    "answer": "A modern interface for making HTTP requests."
+  },
+  {
+    "question": "What is 'localStorage'?",
+    "answer": "A way to store data in the browser with no expiration time."
+  },
+  {
+    "question": "What is 'sessionStorage'?",
+    "answer": "A way to store data in the browser for the duration of the page session."
+  },
+  {
+    "question": "What is 'cookie'?",
+    "answer": "A small piece of data stored on the user's computer by the web browser."
   }
 ]

@@ -13,6 +13,27 @@
         border: 8px solid #f7df1e;
       }
     }
+
+    &_css {
+      #{$root}__side {
+        background-color: #d8c7e9;
+        border: 8px solid #653297;
+      }
+    }
+
+    &_ts {
+      #{$root}__side {
+        background-color: #bacde1;
+        border: 8px solid #3178c6;
+      }
+    }
+
+    &_react {
+      #{$root}__side {
+        background-color: #cfedf4;
+        border: 8px solid #60daf8;
+      }
+    }
   }
 
   &--flipped {

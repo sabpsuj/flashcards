@@ -1,0 +1,138 @@
+[
+  {
+    "question": "What is React Router?",
+    "answer": "A library for routing in React applications."
+  },
+  {
+    "question": "What is Redux?",
+    "answer": "A state management library for JavaScript apps."
+  },
+  {
+    "question": "What is the context API?",
+    "answer": "A way to pass data through the component tree without props."
+  },
+  {
+    "question": "What is a pure component?",
+    "answer": "A component that renders the same output for the same props."
+  },
+  {
+    "question": "What is the difference between state and props?",
+    "answer": "State is local to a component, props are passed from parent to child."
+  },
+  {
+    "question": "What is a controlled component?",
+    "answer": "A component that is controlled by React state."
+  },
+  {
+    "question": "What is an uncontrolled component?",
+    "answer": "A component that maintains its own internal state."
+  },
+  {
+    "question": "What is the useContext hook?",
+    "answer": "A hook that lets you use the context API in functional components."
+  },
+  {
+    "question": "What is the useReducer hook?",
+    "answer": "A hook that lets you manage state with a reducer function."
+  },
+  {
+    "question": "What is the useMemo hook?",
+    "answer": "A hook that memoizes a value to optimize performance."
+  },
+  {
+    "question": "What is the useCallback hook?",
+    "answer": "A hook that memoizes a callback function to optimize performance."
+  },
+  {
+    "question": "What is the useRef hook?",
+    "answer": "A hook that creates a mutable reference to a DOM element."
+  },
+  {
+    "question": "What is the useLayoutEffect hook?",
+    "answer": "A hook that runs synchronously after all DOM mutations."
+  },
+  {
+    "question": "What is the useImperativeHandle hook?",
+    "answer": "A hook that customizes the instance value exposed by a ref."
+  },
+  {
+    "question": "What is the useDebugValue hook?",
+    "answer": "A hook that displays a label for custom hooks in React DevTools."
+  },
+  {
+    "question": "What is the useTransition hook?",
+    "answer": "A hook that lets you mark updates as non-urgent."
+  },
+  {
+    "question": "What is the useDeferredValue hook?",
+    "answer": "A hook that defers a value until the next render."
+  },
+  {
+    "question": "What is the Suspense component?",
+    "answer": "A component that lets you wait for some code to load."
+  },
+  {
+    "question": "What is the lazy function?",
+    "answer": "A function that lets you load components lazily."
+  },
+  {
+    "question": "What is the StrictMode component?",
+    "answer": "A component that helps identify potential problems in an app."
+  },
+  {
+    "question": "What is the Profiler component?",
+    "answer": "A component that measures the performance of a React app."
+  },
+  {
+    "question": "What is the forwardRef function?",
+    "answer": "A function that lets you forward refs to child components."
+  },
+  {
+    "question": "What is the memo function?",
+    "answer": "A function that memoizes a component to optimize performance."
+  },
+  {
+    "question": "What is the cloneElement function?",
+    "answer": "A function that clones and returns a new React element."
+  },
+  {
+    "question": "What is the createPortal function?",
+    "answer": "A function that renders children into a different part of the DOM."
+  },
+  {
+    "question": "What is the hydrate function?",
+    "answer": "A function that hydrates a server-rendered React app."
+  },
+  {
+    "question": "What is the render function?",
+    "answer": "A function that renders a React element into the DOM."
+  },
+  {
+    "question": "What is the findDOMNode function?",
+    "answer": "A function that returns the DOM node of a component."
+  },
+  {
+    "question": "What is the unmountComponentAtNode function?",
+    "answer": "A function that unmounts a React component from the DOM."
+  },
+  {
+    "question": "What is the createElement function?",
+    "answer": "A function that creates a new React element."
+  },
+  {
+    "question": "What is the Fragment component?",
+    "answer": "A component that lets you return multiple elements."
+  },
+  {
+    "question": "What is the Children API?",
+    "answer": "An API for dealing with this.props.children."
+  },
+  {
+    "question": "What is the renderToString function?",
+    "answer": "A function that renders a React element to an HTML string."
+  },
+  {
+    "question": "What is the renderToStaticMarkup function?",
+    "answer": "A function that renders a React element to static HTML."
+  }
+]

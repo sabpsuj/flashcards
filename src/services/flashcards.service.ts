@@ -1,23 +1,34 @@
 import type { Flashcard } from '../types/Flashcard.type'
 import type { Topic } from '../types/Topic.type'
 import jsFlashcards from '../data/js.flashcards.json'
+import cssFlashcards from '../data/css.flashcards.json'
+import tsFlashcards from '../data/ts.flashcards.json'
+import reactFlashcards from '../data/react.flashcards.json'
 
 type FlashcardWithoutId = {
   question: string
   answer: string
 }
 
+const addIdToFlashcard = (flashcard: FlashcardWithoutId, index: number): Flashcard => {
+  return {
+    ...flashcard,
+    id: index
+  }
+}
+
 const flashcards: Record<Topic, Flashcard[]> = {
-  js: jsFlashcards.map((flashcard: FlashcardWithoutId, index: number) => {
-    return {
-      ...flashcard,
-      id: index
-    }
-  }),
+  js: jsFlashcards.map(addIdToFlashcard),
+  css: cssFlashcards.map(addIdToFlashcard),
+  ts: tsFlashcards.map(addIdToFlashcard),
+  react: reactFlashcards.map(addIdToFlashcard),
 }
 
 const lastTenCards: Record<Topic, number[]> = {
   js: [],
+  css: [],
+  ts: [],
+  react: [],
 }
 
 const storeLastTenCards = (topic: Topic, indexes: number[]) => {

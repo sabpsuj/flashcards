@@ -1,1 +1,1 @@
-export type Topic = "js";
+export type Topic = "js" | "css" | "ts" | "react";

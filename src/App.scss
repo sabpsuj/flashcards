@@ -6,6 +6,10 @@
 }
 
 .app {
+  &__header {
+    margin-bottom: 2rem;
+  }
+
   &__cards {
     position: relative;
     max-width: var(--card-width);
@@ -29,5 +33,13 @@
         opacity: 0;
       }
     }
+  }
+
+  &__footer {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7e7e7e;
   }
 }
