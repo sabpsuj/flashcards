@@ -1,6 +1,8 @@
 import { useEffect, useState, useRef } from 'react'
 import type { Flashcard } from '../types/Flashcard.type'
 import './FlashCard.scss'
+import FlipIcon from '../assets/flip.svg?react';
+import CloseIcon from '../assets/close.svg?react';
 
 type FrashCardProps = {
   topic: string
@@ -28,12 +30,12 @@ export function FlashCard({ flashcard, onClose, topic, rotate }: FrashCardProps)
       style={{ ...(rotate ? {transform: `rotate(${rotation}deg)`} : {} ), transformOrigin: `${transformOrigin.current.x}% ${transformOrigin.current.y}%` }}
     >
       <div className={"flash-card__side flash-card__side--front"}>
-        <p>{flashcard.question}</p>
-        <button onClick={() => setIsFlipped(true)}>Flip</button>
+        <p className="flash-card__question">{flashcard.question}</p>
+        <button className="flash-card__button" onClick={() => setIsFlipped(true)}><FlipIcon /></button>
       </div>
       <div className="flash-card__side flash-card__side--back">
-        <p>{flashcard.answer}</p>
-        <button onClick={onClose}>Close</button>
+        <p className="flash-card__answer">{flashcard.answer}</p>
+        <button className="flash-card__button" onClick={onClose}><CloseIcon /></button>
       </div>
     </div>
   )

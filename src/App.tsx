@@ -5,11 +5,17 @@ import { FlashCard } from "./components/FlashCard"
 import { Flashcard as FlashCardType } from './types/Flashcard.type'
 import { Topic } from './types/Topic.type'
 
+const topicsOptions: { value: Topic, label: string }[] = [
+  { value: 'js', label: 'JavaScript' },
+  { value: 'css', label: 'CSS' },
+  { value: 'react', label: 'React' },
+  { value: 'ts', label: 'TypeScript' }
+]
+
 function App() {
   const [cards, setCards] = useState<FlashCardType[]>([])
   const [removingCard, setRemovingCard] = useState(false)
   const [currentTopic, setCurrentTopic] = useState<Topic>('js')
-  const topics: Topic[] = ['js', 'css', 'ts', 'react']
 
   useEffect(() => {
     if (!cards.length) {
@@ -38,14 +44,14 @@ function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <h1>Flashcards - {currentTopic}</h1>
-        <select value={currentTopic} onChange={(e) => setCurrentTopic(e.target.value as Topic)}>
-          {topics.map((topic) => (
+        <h1 className={`app__title app__title-${currentTopic}`}><span className="app__special-letter">F</span>lashcards</h1>
+        <select className='app__select' value={currentTopic} onChange={(e) => setCurrentTopic(e.target.value as Topic)}>
+          {topicsOptions.map(({value, label}) => (
             <option
-              key={topic}
-              value={topic}
+              key={value}
+              value={value}
             >
-              {topic}
+              {label}
             </option>
           ))}
         </select>

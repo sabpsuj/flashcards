@@ -56,8 +56,11 @@
     border-radius: 8px;
     top: 0;
     transition: transform 0.3s;
-    padding: 24px;
+    padding: 24px 24px 84px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &--back {
       transform: rotateY(180deg);
@@ -66,6 +69,34 @@
 
     &--front {
       z-index: 2;
+    }
+  }
+
+  &__button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    margin-left: -20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    svg {
+      width: 24px;
+      height: 24px;
+      position: relative;
+      top: 2px;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     }
   }
 }
