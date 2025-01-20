@@ -1,4 +1,4 @@
-# Flashcards
+# Flashcards 🃏
 
 Welcome to the Flashcards project! This repository contains flashcards to help you learn and review key concepts in the following topics:
 
