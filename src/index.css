@@ -23,7 +23,7 @@
 html {
   min-height: 100%;
   width: 100%;
-  background: linear-gradient(35deg, red, purple);
+  background: linear-gradient(0deg, red, #800080);
 }
 
 body {
