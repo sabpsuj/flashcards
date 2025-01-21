@@ -23,7 +23,7 @@
 html {
   min-height: 100%;
   width: 100%;
-  background: linear-gradient(0deg, red, #800080);
+  background: linear-gradient(0deg, #ff0000, #800080);
 }
 
 body {
@@ -44,11 +44,13 @@ body {
 a {
   font-weight: 500;
   color: #fff;
-  text-decoration: inherit;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 a:hover {
   color: #fff;
+  text-decoration: none;
 }
 
 h1 {

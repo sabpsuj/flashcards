@@ -46,6 +46,18 @@
     }
   }
 
+  &__subtitle {
+    margin: 0;
+    margin-right: -2px;
+    margin-bottom: -8px;
+    font-size: 12px;
+    text-align: right;
+    font-weight: 900;
+    color: #f9a3a3;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
   &__special-letter {
     color: #000;
     display: inline-block;

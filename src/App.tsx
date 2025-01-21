@@ -44,6 +44,7 @@ function App() {
   return (
     <div className="app">
       <header className="app__header">
+        <p className="app__subtitle">Frontend</p>
         <h1 className={`app__title app__title-${currentTopic}`}><span className="app__special-letter">F</span>lashcards</h1>
         <select className='app__select' value={currentTopic} onChange={(e) => setCurrentTopic(e.target.value as Topic)}>
           {topicsOptions.map(({value, label}) => (
