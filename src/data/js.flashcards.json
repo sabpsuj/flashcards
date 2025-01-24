@@ -80,8 +80,8 @@
     "answer": "Event delegation is a technique in JavaScript that leverages the event propagation mechanism (specifically, the bubbling phase) to attach a single event listener to a parent element. This listener can monitor events triggered by its child elements and use event.target to determine which specific child element triggered the event."
   },
   {
-    "question": "What is the event loop in JavaScript?",
-    "answer": "The event loop in JavaScript is a mechanism that ensures non-blocking, asynchronous operations are executed. It continuously checks the call stack and the message queue (or microtask queue) to determine what code to execute next, allowing JavaScript to handle asynchronous operations like setTimeout, Promises, and event listeners while maintaining a single-threaded execution model."
+    "question": "What is the event loop in JavaScript?", 
+    "answer": "The event loop ensures asynchronous operations are executed by checking the call stack and queues, allowing JavaScript to handle tasks without blocking.",
   },
   {
     "question": "What is control flow in JavaScript?",
