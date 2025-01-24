@@ -5,7 +5,7 @@
   },
   {
     "question": "Explain hoisting in JavaScript.",
-    "answer": "Hoisting in JavaScript means that variable and function declarations are moved to the top of their scope during compilation. Function declarations are fully hoisted, meaning both their name and definition are available before execution, while variables declared with var are initialized as undefined. let and const are hoisted but remain uninitialized in the Temporal Dead Zone."
+    "answer": "Hoisting moves variable and function declarations to the top of their scope. Function declarations are fully hoisted, while var variables are initialized as undefined, and let/const remain uninitialized."
   },
   {
     "question": "What is the difference between var, let, and const?",
@@ -77,7 +77,7 @@
   },
   {
     "question": "What is event delegation in JavaScript?",
-    "answer": "Event delegation is a technique in JavaScript that leverages the event propagation mechanism (specifically, the bubbling phase) to attach a single event listener to a parent element. This listener can monitor events triggered by its child elements and use event.target to determine which specific child element triggered the event."
+    "answer": "Event delegation attaches a single event listener to a parent element and uses event propagation to handle events on its child elements."
   },
   {
     "question": "What is the event loop in JavaScript?", 
