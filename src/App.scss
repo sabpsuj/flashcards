@@ -122,10 +122,8 @@
 
   &__footer {
     font-size: 11px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #fff;
-    margin-top: auto;
+    position: absolute;
+    bottom: 10px;
   }
 }

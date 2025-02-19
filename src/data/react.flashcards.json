@@ -1,5 +1,17 @@
 [
   {
+    "question": "What is JSX?",
+    "answer": "JSX is a special syntax that looks like HTML but is actually JavaScript. React uses it to describe what the user interface should look like, and then it is converted into normal JavaScript."
+  },
+  {
+    "question": "Why is class a className in React?",
+    "answer": "In JSX, you must use className instead of class because class is a reserved keyword in JavaScript."
+  },
+  {
+    "question": "Describe data flow in React.",
+    "answer": "React uses one-way data flow, meaning data generally goes from parent to child. To pass information back up, child components typically call callback functions provided by their parent."
+  },
+  {
     "question": "What is React Router?",
     "answer": "A library for routing in React applications."
   },
@@ -20,14 +32,6 @@
     "answer": "State is local to a component, props are passed from parent to child."
   },
   {
-    "question": "What is a controlled component?",
-    "answer": "A component that is controlled by React state."
-  },
-  {
-    "question": "What is an uncontrolled component?",
-    "answer": "A component that maintains its own internal state."
-  },
-  {
     "question": "What is the useContext hook?",
     "answer": "A hook that lets you use the context API in functional components."
   },
@@ -46,10 +50,6 @@
   {
     "question": "What is the useRef hook?",
     "answer": "A hook that creates a mutable reference to a DOM element."
-  },
-  {
-    "question": "What is the useLayoutEffect hook?",
-    "answer": "A hook that runs synchronously after all DOM mutations."
   },
   {
     "question": "What is the useImperativeHandle hook?",
@@ -92,47 +92,11 @@
     "answer": "A function that memoizes a component to optimize performance."
   },
   {
-    "question": "What is the cloneElement function?",
-    "answer": "A function that clones and returns a new React element."
-  },
-  {
     "question": "What is the createPortal function?",
     "answer": "A function that renders children into a different part of the DOM."
   },
   {
-    "question": "What is the hydrate function?",
-    "answer": "A function that hydrates a server-rendered React app."
-  },
-  {
     "question": "What is the render function?",
     "answer": "A function that renders a React element into the DOM."
-  },
-  {
-    "question": "What is the findDOMNode function?",
-    "answer": "A function that returns the DOM node of a component."
-  },
-  {
-    "question": "What is the unmountComponentAtNode function?",
-    "answer": "A function that unmounts a React component from the DOM."
-  },
-  {
-    "question": "What is the createElement function?",
-    "answer": "A function that creates a new React element."
-  },
-  {
-    "question": "What is the Fragment component?",
-    "answer": "A component that lets you return multiple elements."
-  },
-  {
-    "question": "What is the Children API?",
-    "answer": "An API for dealing with this.props.children."
-  },
-  {
-    "question": "What is the renderToString function?",
-    "answer": "A function that renders a React element to an HTML string."
-  },
-  {
-    "question": "What is the renderToStaticMarkup function?",
-    "answer": "A function that renders a React element to static HTML."
   }
 ]
